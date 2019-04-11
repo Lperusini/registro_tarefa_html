@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Bootstrap início -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<title>Organizador de tarefas</title>
+
+	<style type="text/css">
+
+		.logo {
+		color: white;
+		}
+
+		.espacamento {
+			margin: 10px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary md-5">
+		<div class="container">
+			<a href="" class="logo display-4">Registro de tarefas</a>	
+		</div>		
+	</nav>
+
+	<div class="row">
+		<div class="container">
+			<div class="col-md-8 espacamento">
+				<h1 class=" display-5">Registro de tarefa diária</h1>				
+			</div>			
+		</div>		
+	</div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-5 espacamento">
+				<input type="text" name="" class="form-control" placeholder="Digite aqui o titulo da tarefa">				
+			</div>	
+
+			<div class="col-md-3">
+				<select class="form-control espacamento">
+					<option>Índice</option>
+					<option>Mensal</option>
+					<option>IMPORTANTE</option>
+					<option>PENDENTE</option>
+					<option>Resolvido</option>					
+				</select>				
+			</div>
+
+			<div class="col-md-3 espacamento">
+				<input type="date" name="" class="form-control">				
+			</div>	
+
+			<div class="col-md-6">
+				<a href=""> Situação</a>
+				<textarea class="msg espacamento" cols="70" rows="8"></textarea>				
+			</div>	
+
+			<div class="col-md-6">
+				<a href=""> Solução</a>
+				<textarea class="msg espacamento" cols="70" rows="8"></textarea>				
+			</div>	
+
+			<div class="col-md-2 justify-content-end">
+				<button type="button" class="btn btn-primary" onclick="alert('botao inoperante')">
+					<i class="fas fa-plus"></i>
+				</button>
+				
+			</div>
+		</div>		
+	</div>
+
+
+</body>
+</html>
